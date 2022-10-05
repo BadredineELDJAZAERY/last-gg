@@ -1,0 +1,13 @@
+
+
+.container{
+  font-family: "Sofia", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 210px;
+    left: 450px;
+    transform: translate(50%, -50%);
+    font-size: 50px;
+    white-space: nowrap;
+}

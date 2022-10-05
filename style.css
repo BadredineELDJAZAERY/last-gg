@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    padding: 20px 12vh;
+    animation: transitionIn 0.75s;
+    background-color: black;
+    
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#logo{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+#logo:hover{
+    color: yellow;
+
+    font-family: 'Homemade Apple', cursive;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+nav a{
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 70%;
+}
+nav a:hover{
+    padding-left: 50px;
+    text-decoration: none;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 90%;
+}
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    
+}
+.btn{
+    background-color: white;
+    font-size: 12px;
+    padding: 5px;
+    width: 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    left: 60px;
+
+}
+.btn:hover{
+    font-size: 150%;
+    padding: 5px;
+    width: 80px;
+    
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Homemade Apple', cursive;
+
+}
+#text{
+    font-size: 40px;
+    font-family: 'Homemade Apple', cursive;
+    color: white;
+    width: 90px;
+    position: relative;
+    top: 40px;
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+#PO{
+    font-size: 250%;
+    font-family: "Sofia", sans-serif;
+    color: white;
+    width: 440px;
+    position: relative;
+left: 400;
+    top: 90px
+}
+#Pn{
+    font-size: 100%;
+    font-family: "Sofia", sans-serif;
+    color: white;
+    width: 660px;
+    height: 60;
+    position: relative;
+    left: 320;
+    top: 90px
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
